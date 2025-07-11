@@ -20,14 +20,6 @@ const AntiSpam = require("discord-anti-spam");
 const cooldowns = new Map();
 client.commands = new Discord.Collection();
 
-// Komut yükleyici
-const commandFile = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-commandFile.forEach(file => {
-    const command = require(`./commands/${file}`);
-    client.commands.set(command.name, command);
-})
-console.log(`\x1b[34m[📁] - commands klasörü yüklendi!\x1b[0m`)
-
 // Event yükleyici
 fs.readdir("./events", (err, files) => {
     if (err) return console.log(err);
