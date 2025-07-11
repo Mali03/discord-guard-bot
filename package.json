@@ -1,0 +1,19 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "@discordjs/rest": "^1.7.1",
+    "discord-anti-spam": "^2.8.1",
+    "discord-api-types": "^0.37.47",
+    "discord.js": "^13.16.0",
+    "fs": "0.0.1-security",
+    "wio.db": "^4.0.20"
+  },
+  "scripts": {
+    "test": "cls"
+  },
+  "author": "https://github.com/Mali03",
+  "license": "MIT"
+}
