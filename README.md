@@ -1,5 +1,5 @@
 # Discord Guard Bot
-Anythime bot sees someone is attacking the server, bot detects and prevents it.
+A powerful moderation bot designed to protect your Discord server against malicious activity — with advanced detection, prevention, and logging features.
 
 ![](https://i.imgur.com/GVK7ovh.png)
 ![](https://i.imgur.com/x4SmMC8.png)
