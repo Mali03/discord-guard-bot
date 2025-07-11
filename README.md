@@ -80,3 +80,5 @@ To execute the bot.js:
 node bot.js
 ```
 
+# Need Help
+If you need any help contact me on [LinkedIn](https://www.linkedin.com/in/mali03/).
